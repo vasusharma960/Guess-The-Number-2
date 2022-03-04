@@ -1,0 +1,11 @@
+body{
+  text-align: center;
+  background-color: #ba34eb;
+  color: white;
+  font-size: 4rem;
+  margin-top: 10%;
+}
+
+input, button{
+  font-size: 4rem;
+}
