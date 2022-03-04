@@ -11,6 +11,9 @@ function checkNumber(){
   if(inputNumber == "")
   alert("Enter a Number to Guess");
 
+  else if(inputNumber <= 0 || inputNumber > 100)
+  alert("Please enter a number between 1 and 100");
+
   else{
     if(inputNumber > randomNumber)
     document.getElementById("result").innerText = "Guess a Lesser Number";
